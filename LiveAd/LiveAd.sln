@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiveAd", "LiveAd.csproj", "{0A1087B3-7CE6-5BB2-6EE8-6AFF93EA83F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiveAd.Editor", "LiveAd.Editor.csproj", "{900F7261-6FB8-DF37-FF24-F4903317176C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A1087B3-7CE6-5BB2-6EE8-6AFF93EA83F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A1087B3-7CE6-5BB2-6EE8-6AFF93EA83F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A1087B3-7CE6-5BB2-6EE8-6AFF93EA83F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A1087B3-7CE6-5BB2-6EE8-6AFF93EA83F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{900F7261-6FB8-DF37-FF24-F4903317176C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{900F7261-6FB8-DF37-FF24-F4903317176C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{900F7261-6FB8-DF37-FF24-F4903317176C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{900F7261-6FB8-DF37-FF24-F4903317176C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
