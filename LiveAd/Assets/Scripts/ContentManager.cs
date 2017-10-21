@@ -6,7 +6,7 @@ public class ContentManager : MonoBehaviour
 {
     private static ContentManager instance;
     private static Dictionary<string, Content> content = new Dictionary<string, Content>();
-    private static string path = "/Content";
+    private static string path = "Content";
 
     public static ContentManager Instance
     {
@@ -39,14 +39,19 @@ public class ContentManager : MonoBehaviour
             return;
         }
         Instance = this;
-
+        LoadData();
         DontDestroyOnLoad(transform.root.gameObject);
     }
 
-    // Use this for initialization
-    void Start()
+    private void LoadData()
     {
         var data = Resources.LoadAll<Content>(path);
+        Debug.Log(data.Length + " elements was loaded");
         content = data.ToDictionary(x => x.Name);
+    }
+
+    public Content GetContent(string contentName)
+    {
+        return content[contentName];
     }
 }

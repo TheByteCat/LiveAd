@@ -91,6 +91,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Content.cs" />
     <Compile Include="Assets\Scripts\ContentManager.cs" />
+    <Compile Include="Assets\Scripts\Content\TextAdLoader.cs" />
     <Compile Include="Assets\Scripts\Content\TextContent.cs" />
     <Compile Include="Assets\Vuforia\Scripts\BackgroundPlaneBehaviour.cs" />
     <Compile Include="Assets\Vuforia\Scripts\CloudRecoBehaviour.cs" />
