@@ -5,7 +5,6 @@ using UnityEngine;
 public enum ContentType {Posters, Vidio, Models, Text}
 
 public abstract class Content : ScriptableObject {
-    private ContentType contentType;
     public ContentType Type {
         get { return GetContentType(); }
     }
